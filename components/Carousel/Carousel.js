@@ -44,6 +44,11 @@ function createCarousel() {
     carousel.innerHTML += leftButton + img1 + img2 + img3 + img4 + rightButton;
 
     leftButton.addEventListener('click', () => {
-      
-    })
+
+    });
+    rightButton.addEventListener('click', () => {
+
+    });
+
+    
 }
